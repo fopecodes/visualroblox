@@ -143,4 +143,12 @@ do
             return KeyCode.Name
         end
     end
+
+    function Utility:GetProperty(Level, Name, Properties)
+        local AllProperties = {
+            Window = {
+                --: Insert stuff here
+            }
+        }
+    end
 end
