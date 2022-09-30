@@ -90,7 +90,7 @@ do
             if StartPosition.X.Offset + Delta.X <= -750 and -Camera.ViewportSize.X <= StartPosition.X.Offset + Delta.X then
                 local Position = UDim2.new(StartPosition.X.Scale, StartPosition.X.Offset + Delta.X, Parent.Position.Y.Scale, Parent.Position.Y.Offset)
                 Utility:Tween(Parent, {Position = Position}, 0.25)
-            elseif StartPosition.X.Offset + Detla.X > -500 then
+            elseif StartPosition.X.Offset + Delta.X > -500 then
                 local Position = UDim2.new(1, -250, Parent.Position.Y.Scale, Parent.Position.Y.Offset)
                 Utility:Tween(Parent, {Position = Position}, 0.25)
             elseif -Camera.Viewport.Size.X > StartPosition.X.Offset + Delta.X then
