@@ -3,7 +3,7 @@ Made by fope#2546
 
 ## Getting Loadstring
 ```lua
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/fopecodes/visualroblox/master/visualcommand.lua?token=GHSAT0AAAAAABZJZ6DES2E7EKVYM5CFEZK6YZXENXQ", true))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/fopecodes/visualroblox/master/visualcommand.lua", true))()
 ```
 
 ## Creating Window
